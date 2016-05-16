@@ -1,3 +1,13 @@
 <p>hello world</p>
 <p>this is the employee page</p>
 <p>My name is {{ name }}</p>
+
+<ul ng-repeat="log in timeLogs">
+    <li>
+        <ul>
+            <li>{{log.workday}}</li>
+            <li>{{log.project}}</li>
+            <li>{{log.hours}}</li>
+        </ul>
+    </li>
+</ul>
