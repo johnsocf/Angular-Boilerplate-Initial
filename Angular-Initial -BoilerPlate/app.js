@@ -5,11 +5,11 @@
     app.config(function($routeProvider){
         $routeProvider
             .when('/', {
-                controller: 'LoginController',
+                controller: 'loginController',
                 templateUrl: 'Views/login.html'
             })
-            .when('/mypage', {
-                controller: 'employeePageController',
+            .when('/mypage/:customerName', {
+                controller: 'employeeController',
                 templateUrl: 'Views/employeepage.html'
             })
             .otherwise({
