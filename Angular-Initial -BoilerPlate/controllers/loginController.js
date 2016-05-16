@@ -11,6 +11,6 @@
     loginController.$inject = ['$scope'];
 
     angular.module('timeTrackingModule')
-        .controller('LoginController', loginController);
+        .controller('loginController', loginController);
 
 }());
