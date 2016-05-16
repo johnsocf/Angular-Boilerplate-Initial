@@ -9,7 +9,7 @@
                 templateUrl: 'Views/login.html'
             })
             .when('/mypage', {
-                controller: 'EmployeePageController',
+                controller: 'employeePageController',
                 templateUrl: 'Views/employeepage.html'
             })
             .otherwise({
